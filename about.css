@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(203, 236, 218, 1.2);
+  height: 100%;
+  width: 100%;
+}
+
+.welcome {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  background-color: #ecfdf4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: #808080;
+  text-shadow: 2px 2px 2px white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: #808080;
+}
+
+footer {
+  background-color: #b3b2b2;
+  color: white;
+  line-height: 0.5;
+  text-align: center;
+  display: flex;
+  margin-top: 200px;
+  color: black;
+  text-shadow: 2px 2px 2px antiquewhite;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  color: black;
+  text-shadow: 2px 2px 2px antiquewhite;
+}
+
+.column {
+  display: inline-block;
+  margin-left: 100px;
+  width: 50%;
+  align-content: flex-start;
+}
+
+address {
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  nav {
+    line-height: 2;
+  }
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style-type: none;
+    display: grid;
+    margin: 0;
+  }
+  .container {
+    display: block;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  footer {
+    display: flex;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    margin: 0;
+    width: 25%;
+    align-content: flex-start;
+  }
+}

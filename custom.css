@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgba(203, 236, 218, 1.2);
+}
+
+.welcome {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  background-color: #ecfdf4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: #808080;
+  text-shadow: 2px 2px 2px white;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  line-height: 1.25;
+  width: 100%;
+}
+.column {
+  display: block;
+  margin: 0;
+  width: 25%;
+  align-content: flex-start;
+}
+
+/* CAROUSEL  */
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+}
+
+.carousel {
+  width: 640px;
+  height: 360px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* CAPTIONS ON CAROUSEL */
+  .carousel-caption {
+    position: absolute;
+    right: 25%;
+    bottom: 20px;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  /* CAPTIONS ON CAROUSEL */
+  .d-md-block {
+    display: block !important;
+  }
+}
