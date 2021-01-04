@@ -131,7 +131,7 @@ address {
   footer {
     display: flex;
     text-align: center;
-    line-height: 1.25;
+    /* line-height: 1.25; */
     width: 100%;
   }
   .column {

@@ -184,7 +184,7 @@ address {
     display: block;
     color: black;
     text-shadow: 2px 2px 2px antiquewhite;
-    line-height: 2;
+    line-height: 0;
   }
   .column {
     display: inline-block;
